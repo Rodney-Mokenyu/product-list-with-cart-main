@@ -10,13 +10,14 @@ html, body {
 }
 
 body {
-    line-height: 1.5;
-    font-family: Arial, sans-serif;
+    
+    font-family: 'Noto Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--color-rose-100);
     align-items: center;
     justify-content: center;
+
 }
 
 img, picture, video, canvas, svg {
@@ -75,9 +76,10 @@ picture + p {
 }
 
 .product-name {
-    font-weight: lighter;
+    font-weight: light;
     margin-top: 2rem;
     color: var(--color-rose-500);
+    font-size: 1rem;
 }
 .price {
     color: var(--color-red);
@@ -90,12 +92,12 @@ picture + p {
 .add-to-cart-button {
     display: flex;
     gap: 0.1rem;
-    padding: 0.5rem 2rem;
+    padding: 0.3rem 2rem;
     position: absolute;
     bottom: 0;
     left: 50%;
     font-size: 16px;
-    transform: translateX(-50%) translateY(-300%);
+    transform: translateX(-50%) translateY(-350%);
     background-color: rgba(245, 241, 241, 1.0);
     color: rgb(20, 19, 19);
     border-radius: 5px;
