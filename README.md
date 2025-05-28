@@ -16,7 +16,7 @@ This is a solution to the [Product list with cart challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
   This was another project on front end developement. Product list with cart is a project that is about building a shopping webpage with cart functionality and in a responsive design manner.
@@ -33,14 +33,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design/Screenshote.jpeg)
+![](design/Screenshote.jpeg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Rodney-Mokenyu/product-list-with-cart-main)
+- Live Site URL: ( https://rodney-mokenyu.github.io/product-list-with-cart-main/)
 
 ## My process
 
@@ -138,14 +138,11 @@ As with most of my projects, I would like to continue developing my js DOM manip
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@Rodney-Mokenyu](https://www.frontendmentor.io/profile/Rodney-Mokenyu)
+
+
 
 ## Acknowledgments
+I really want to appreciate myself for not giving up despite the hurdles faced during this project. I showed some resilience until the very end.
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
