@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <img src="${getProductImageSrc(item.name)}" alt="${item.name}" style="width:32px; height:32px; object-fit:cover; border-radius:8px; border:1px solid #eee;">
         <div style="margin-left:8px;">
           <strong>${item.name}</strong>
-          <span style="display:block; color:gray;">${item.quantity}x  &nbsp $${item.price}</span>
+          <span style="display:block; color:red;">${item.quantity}x  &nbsp <span style="color:gray;">$${item.price}</span></span>
         </div>
         <div style="margin-left:auto; font-weight:bold;">$${item.total}</div>
         </div>
@@ -134,6 +134,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <div style="font-weight:bold; margin-top:10px;">Total: $${orderTotal}</div>`
       : '<div>No items ordered.</div>';
 
+  
+
     const closeBtn = document.createElement('button');
     closeBtn.className = 'close-popup-button';
     closeBtn.textContent = 'start new order';
@@ -143,6 +145,8 @@ document.addEventListener('DOMContentLoaded', function () {
     popup.appendChild(popupContent);
     document.body.appendChild(popup);
   });
+  // end of confirm order button
+
 
   function updateCart(name, quantity, price, productElement) {
     if (quantity === 0) {
@@ -271,20 +275,14 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-    /*
-    function showAllAddToCartButtons() {
-      document.querySelectorAll('.regulate-product-quantity').forEach(btn => {
-        btn.classList.add('d-none');
-      });
-    }  
-    */
+  
 
     // Show/hide confirm order button
     confirmOrderBtn.style.display = Object.keys(cart).length > 0 ? 'block' : 'none';
   }
 
   cartSection.addEventListener('click', function (event) {
-    showAllAddToCartButtons();
+   
     if (event.target.classList.contains('cart-item-image')) {
       const itemName = event.target.alt;
       delete cart[itemName];
